@@ -29,7 +29,7 @@ html, body {
 }
 
 @font-face {
-    font-family" 'playfair';
-    src: url('assets/Font/{PlayfairDisplay-Bold.woff') format('woff),
+    font-family: 'Playfair';
+    src: url('assets/Font/{PlayfairDisplay-Bold.woff') format('woff'),
         url('assets/Font/Playfair Display 700.tiff') format('truetype');
 }
