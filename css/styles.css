@@ -1,0 +1,35 @@
+
+
+html, body {
+    font-family: 'Playfair';
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    width: 100%;
+    height: 100%
+}
+
+.text-red {
+    color: red;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+
+}
+.bg-gray  {
+    background-color: lightgray;
+}
+.about {
+    height: 20em;
+
+}
+.left {
+    float: left;
+}
+
+@font-face {
+    font-family" 'playfair';
+    src: url('assets/Font/{PlayfairDisplay-Bold.woff') format('woff),
+        url('assets/Font/Playfair Display 700.tiff') format('truetype');
+}
