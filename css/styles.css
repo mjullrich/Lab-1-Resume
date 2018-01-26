@@ -1,35 +1,264 @@
+@font-face {
+    font-family: 'Playfair';
+    src: url('assets/Font/{PlayfairDisplay-Bold.woff') format('woff'),
+    url('assets/Font/Playfair Display 700.tiff') format('truetype');
+}
 
-
-html, body {
+html,
+body {
     font-family: 'Playfair';
     margin: 0;
     padding: 0;
     font-size: 16px;
-    width: 100%;
-    height: 100%
 }
 
-.text-red {
-    color: red;
+#content {
+    width: 1200px;
+    margin: auto;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.spacer {
+    height: 50px;
+}
+
+nav {
+    height: 150px;
+}
+
+.nav-name {
+    font-size: 40px;
+    color: chocolate;
+    text-align: center;
+    border: 6px black solid;
+    border-width: thick;
+    padding: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+.nav-links {
+    text-align: right;
+    width: 50%;
+    margin-left: 50%;
+    padding-top: 15px;
+}
+
+.nav-links>a {
+    margin: 15px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.text-brown {
+    color: chocolate;
+    font-size: 2em;
+    font-weight: bold;
+    width: 80%;
+}
+
+.hero-text {
+    position: absolute;
+    left: 300px;
+    bottom: 10px;
+}
+
+.hero {
+    font-size: 2em;
+    position: relative;
+    height: 500px;
 }
 
 .text-uppercase {
     text-transform: uppercase;
-
+    font-size: 1em;
+    font-weight: bold;
 }
-.bg-gray  {
+
+.bg-gray {
     background-color: lightgray;
 }
+
 .about {
-    height: 20em;
-
+    position: relative;
 }
+
+.about h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.about h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
 .left {
-    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 50%;
+    text-align: right;
 }
 
-@font-face {
-    font-family: 'Playfair';
-    src: url('assets/Font/{PlayfairDisplay-Bold.woff') format('woff'),
-        url('assets/Font/Playfair Display 700.tiff') format('truetype');
+.right {
+    margin-left: 50%;
+    padding: 30px;
+}
+
+.right p {
+    border: 5px solid black;
+    padding: 30px;
+    text-align: justify;
+}
+
+.experience {
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+.exp-link {
+    width: 20px;
+    height: 20px;
+    float: right;
+    padding-right: 10px;
+}
+
+.columns {
+    justify-content: center;
+}
+
+.column {
+    width: 50%;
+    vertical-align: top;
+    padding: 20px;
+    line-height: 1.5em;
+    color: #666666;
+}
+
+.column h2 {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.march-left {
+    position: relative;
+    /* display: inline-block; */
+    float: left;
+    padding: 50px;
+    border: solid;
+}
+
+.schriner-center {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+    border: solid;
+    text-align: center;
+    margin-left: 3.7%;
+}
+
+.rhey-right {
+    position: relative;
+    float: right;
+    padding: 50px;
+    border: solid;
+}
+
+.eaton-left {
+    position: relative;
+    float: left;
+    padding: 50px;
+    border: solid;
+}
+
+.clark-center {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+    border: solid;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.lomax-right {
+    position: relative;
+    float: right;
+    padding: 50px;
+    border: solid;
+}
+
+.contact {
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    margin: 70px auto;
+}
+
+#talk {
+    text-align: left;
+    font-weight: bold;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.work-email {
+    text-align: right;
+    margin-top: 0;
+    color: gray;
+    float: right;
+    padding-top: 15px;
+}
+
+.work-email h2 {
+    margin: 0;
+}
+
+#contact-form {
+    margin-top: 25px;
+}
+
+#contact-form input[type='text'],
+#contact-form input[type='email'] {
+    width: 500px;
+    height: 30px;
+    background-color: #f5f3f1;
+    margin: 10px;
+    border: 0;
+    padding: 10px;
+    border: 1px solid #e3e1df;
+    font-size: 20px;
+}
+
+#contact-form textarea {
+    width: 500px;
+    height: 300px;
+    background-color: #f5f3f1;
+    border: 0;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #e3e1df;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+#contact-form input[type='submit'] {
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: darkgray;
+    margin-left: 43%;
+}
+
+footer {
+    border-top: 2px solid;
+    padding: 10px;
 }
